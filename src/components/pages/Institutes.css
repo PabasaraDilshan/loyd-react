@@ -1,0 +1,13 @@
+.ins-title,.ins-des{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.ins-title{
+    text-align: center;
+    color: blue;
+    margin-bottom: 5px;
+}
+.ins-des{
+    text-align: justify;
+    margin-bottom: 5px;
+}
