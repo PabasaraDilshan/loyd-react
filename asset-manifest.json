@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/loyd-react/static/css/main.5e940081.chunk.css",
+    "main.js": "/loyd-react/static/js/main.46c9df5d.chunk.js",
+    "main.js.map": "/loyd-react/static/js/main.46c9df5d.chunk.js.map",
+    "runtime-main.js": "/loyd-react/static/js/runtime-main.79d0d964.js",
+    "runtime-main.js.map": "/loyd-react/static/js/runtime-main.79d0d964.js.map",
+    "static/js/2.6c98d156.chunk.js": "/loyd-react/static/js/2.6c98d156.chunk.js",
+    "static/js/2.6c98d156.chunk.js.map": "/loyd-react/static/js/2.6c98d156.chunk.js.map",
+    "static/js/3.beb88d00.chunk.js": "/loyd-react/static/js/3.beb88d00.chunk.js",
+    "static/js/3.beb88d00.chunk.js.map": "/loyd-react/static/js/3.beb88d00.chunk.js.map",
+    "index.html": "/loyd-react/index.html",
+    "static/css/main.5e940081.chunk.css.map": "/loyd-react/static/css/main.5e940081.chunk.css.map",
+    "static/js/2.6c98d156.chunk.js.LICENSE.txt": "/loyd-react/static/js/2.6c98d156.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79d0d964.js",
+    "static/js/2.6c98d156.chunk.js",
+    "static/css/main.5e940081.chunk.css",
+    "static/js/main.46c9df5d.chunk.js"
+  ]
+}
