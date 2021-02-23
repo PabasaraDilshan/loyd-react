@@ -1,0 +1,54 @@
+:root{
+    --test:"preview";
+}
+.form-editor{
+
+    padding: 10px;
+
+}
+.preview{
+    padding: 10px;
+
+
+}
+.Admin{
+    
+
+    width: 100%;
+}
+.form-editor ol,ul{
+    padding-left: 20px;
+}
+
+
+div.preview table td,div.ins th,div.ins tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+div.preview tr:first-child{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+div.preview td{
+   width:fit-content;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-right: 5px;
+   padding-left: 5px;
+}
+div.preview figure{
+    text-align: center;
+}
+div.preview{
+    margin: 10px 10px;
+}
+
+
+div.preview ol,ul {
+    padding-left: 20px;
+
+}

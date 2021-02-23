@@ -1,9 +1,11 @@
 import React, {useState,useEffect} from 'react';
 import firebase from '../firebase';
-import './Institutes.css'
+import './Institutes.css';
+import DOMPurify from 'dompurify';
+
 export default function Institutes({match:{params:{id}}}){
     console.log(id);
-    const [items,setItems] = useState({});
+    const [items,setItems] = useState("");
     const [loading, setLoading] = useState(false);
     function getitems(){
         setLoading(true);
@@ -11,7 +13,7 @@ export default function Institutes({match:{params:{id}}}){
         console.log("test2");
         ref.doc(id).onSnapshot((doc)=>{
             console.log("test3");
-            setItems(doc.data());
+            setItems(doc.data().data);
             setLoading(false);
         });
     }
@@ -25,9 +27,9 @@ export default function Institutes({match:{params:{id}}}){
     console.log("test5");
     return(
         <>
-        <h1 className = "ins-title">{items.title}</h1>
-        <p className = "ins-des">{items.description}</p>
-        <p className = "ins-foot">{items.foot}</p>
+        <div className="preview" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(items)}}>
+
+        </div>
 
         </>
     );
